@@ -1,0 +1,820 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d6ddd3ba85e6163722aab85962d35832",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d45618241ecf8aa50100c8ffb9daadd4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d4adbe6218b1955a5012ac6c6943b8fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a97f95502152ef8fbcd9bc7950060c70",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "21f88f4d1c5834ea1d5ae167359df646",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "49a355eee8551a33cf94a1304df1286b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e263707ff36582d14e28db651d9147d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "9ecf5ad089685e5669c16ff8aff9ed5e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "A simplified bare-bones starter for Gatsby",
+        "version": "0.1.0",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.3.16"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "rebass",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.17.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "506fd016e1cbc7475116813bc7914b3b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879": {
+      "resolve": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby-plugin-page-creator",
+      "id": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/marleneflores/Desktop/ACME/floresm/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/marleneflores/Desktop/ACME/floresm/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0bdfe8e410ff10bc31ecb3b8b99942f8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Casa San Lucas",
+        "siteUrl": "https://www.gatsbyjs.org",
+        "description": "My first e-commerce store"
+      },
+      "port": 8002,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-24T18:42:36.169Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8779ceb74962f24447d7536a569e0a8f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5a286d2a627db89a91a643a61b15f69b",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4ed5d420668615f6053885f1aa1ef862",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31f9578f3a993151ce72583959396f08",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /new/": {
+      "jsonName": "new-83d",
+      "internalComponentName": "ComponentNew",
+      "path": "/new/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/new.js",
+      "componentChunkName": "component---src-pages-new-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/new.js",
+      "id": "SitePage /new/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9110355a86340ae43de4fb5548ac545e",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/dairy-eggs/": {
+      "jsonName": "products-dairy-eggs-83a",
+      "internalComponentName": "ComponentProductsDairyEggs",
+      "path": "/products/dairy-eggs/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/dairy-eggs.js",
+      "componentChunkName": "component---src-pages-products-dairy-eggs-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/dairy-eggs.js",
+      "id": "SitePage /products/dairy-eggs/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "95fbb3945d1790ae60c05dead24f1f93",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/grains/": {
+      "jsonName": "products-grains-d0d",
+      "internalComponentName": "ComponentProductsGrains",
+      "path": "/products/grains/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/grains.js",
+      "componentChunkName": "component---src-pages-products-grains-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/grains.js",
+      "id": "SitePage /products/grains/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "da090b6f85cf10f60805042d2e0eeb90",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/": {
+      "jsonName": "products-6ef",
+      "internalComponentName": "ComponentProducts",
+      "path": "/products/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/index.js",
+      "componentChunkName": "component---src-pages-products-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/index.js",
+      "id": "SitePage /products/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6e1f043b3cae0cdaeb85b31a5ef4c2ae",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/meats/": {
+      "jsonName": "products-meats-0d5",
+      "internalComponentName": "ComponentProductsMeats",
+      "path": "/products/meats/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/meats.js",
+      "componentChunkName": "component---src-pages-products-meats-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/meats.js",
+      "id": "SitePage /products/meats/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7ae295f2ca9a79fd4a9793d11d2a9353",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/miscellaneous/": {
+      "jsonName": "products-miscellaneous-d99",
+      "internalComponentName": "ComponentProductsMiscellaneous",
+      "path": "/products/miscellaneous/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/miscellaneous.js",
+      "componentChunkName": "component---src-pages-products-miscellaneous-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/miscellaneous.js",
+      "id": "SitePage /products/miscellaneous/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4e28d64b753518a16c6656ec4b25293d",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/packaged-goods/": {
+      "jsonName": "products-packaged-goods-145",
+      "internalComponentName": "ComponentProductsPackagedGoods",
+      "path": "/products/packaged-goods/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/packaged-goods.js",
+      "componentChunkName": "component---src-pages-products-packaged-goods-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/packaged-goods.js",
+      "id": "SitePage /products/packaged-goods/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b4745a01a35599775fde17da46c29479",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /products/produce/": {
+      "jsonName": "products-produce-abf",
+      "internalComponentName": "ComponentProductsProduce",
+      "path": "/products/produce/",
+      "component": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/produce.js",
+      "componentChunkName": "component---src-pages-products-produce-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "pluginCreatorId": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/produce.js",
+      "id": "SitePage /products/produce/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7a6f1e704dd3e7ff4de1a8713c8c09e9",
+        "description": "2a17ab5b-1bd1-51f5-aa46-7f90c04ec879",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "8d861ef48dc60f74841c23e20feb1e03"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "contact-26a": "279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "new-83d": "876/path---new-83-d-54e-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-dairy-eggs-83a": "788/path---products-dairy-eggs-83-a-f86-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-grains-d0d": "623/path---products-grains-d-0-d-dcd-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-6ef": "363/path---products-6-ef-42b-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-meats-0d5": "894/path---products-meats-0-d-5-374-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-miscellaneous-d99": "949/path---products-miscellaneous-d-99-e68-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-packaged-goods-145": "95/path---products-packaged-goods-145-7de-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "products-produce-abf": "515/path---products-produce-abf-f81-0SUcWyAf8ecbYDsMhQkEfPzV8"
+  },
+  "components": {
+    "/Users/marleneflores/Desktop/ACME/floresm/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/.cache/dev-404-page.js",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/about.js",
+      "pages": [
+        "/about/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/contact.js",
+      "pages": [
+        "/contact/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/index.js",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/new.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/new.js",
+      "pages": [
+        "/new/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/dairy-eggs.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/dairy-eggs.js",
+      "pages": [
+        "/products/dairy-eggs/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/grains.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/grains.js",
+      "pages": [
+        "/products/grains/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/index.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/index.js",
+      "pages": [
+        "/products/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/meats.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/meats.js",
+      "pages": [
+        "/products/meats/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/miscellaneous.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/miscellaneous.js",
+      "pages": [
+        "/products/miscellaneous/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/packaged-goods.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/packaged-goods.js",
+      "pages": [
+        "/products/packaged-goods/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/produce.js": {
+      "query": "",
+      "componentPath": "/Users/marleneflores/Desktop/ACME/floresm/src/pages/products/produce.js",
+      "pages": [
+        "/products/produce/"
+      ],
+      "isInBootstrap": true
+    }
+  },
+  "staticQueryComponents": {}
+}
