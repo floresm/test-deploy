@@ -1,0 +1,58 @@
+// FOOTER
+
+.footer {
+  // position: absolute;
+  // bottom: 0;
+  width: -webkit-fill-available;
+  padding: 3em 0 3em 0;
+  background-color: #F4F4F6;
+  margin: 0;
+
+  .navContainer {
+    max-width: 764px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    ul {
+      list-style-type: none;
+      width: 100%;
+      margin: 0;
+      display: flex;
+      padding-left: 0;
+      width: 13%;
+      margin: auto;
+      margin-bottom: 2em;
+
+      li {
+        // margin-right: 30px;
+        // height: 30px;
+        width: 50%;
+      }
+
+      .fb {
+        &:before {
+          content: "\f39e";
+          font-family: 'Font Awesome 5 Brands' !important;
+          // position: absolute;
+          // margin-left: -1.5em;
+          // line-height: 1.75em;
+        }
+      }
+
+      .insta {
+        &:before {
+          content: "\f16d";
+          font-family: 'Font Awesome 5 Brands' !important;
+          // position: absolute;
+          // margin-left: -1.5em;
+          // line-height: 1.75em;
+        }
+      }
+    }
+
+    p {
+      margin: 10px;
+    }
+  }
+}

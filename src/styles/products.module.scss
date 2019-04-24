@@ -1,0 +1,318 @@
+.productPrev {
+  .productType{
+    padding: 1em;
+  }
+}
+
+.productS {
+  margin-bottom: 2em;
+  // height: 150px;
+  height: 200px;
+  display: block;
+
+}
+
+.productMTall {
+  margin-bottom: 2em;
+  height: 400px;
+  display: block;
+}
+
+.productMWide {
+  margin-bottom: 2em;
+  height: 300px;
+  display: block;
+}
+
+.productL {
+  margin-bottom: 2em;
+  height: 650px;
+  display: block;
+}
+
+.produce {
+  border: 2px solid #BE00A1;
+  background-image: url("../../src/img/produce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  transition: 0.5 ease;
+
+  // &:hover {
+  //   background-size: 105%;
+  //   transition: 0.5 ease;
+  //   transform: scale(1.05);
+  // }
+
+  .productPrev {
+    // border: 2px solid #BE00A1;
+    // background-image: url("../../src/img/produce.png");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // height: 100%;
+
+    .productType{
+      color: #BE00A1;
+      // padding: 1em;
+    }
+  } // end productPrev
+} // end produce
+
+.grains {
+  border: 2px solid #979797;
+  background-image: url("../../src/img/grains.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .productPrev {
+    .productType{
+      color: #979797;
+      // padding: 1em;
+    } // end productType
+  } // end productPrev
+} // end grains
+
+.meats {
+  border: 2px solid #D90052;
+  background-image: url("../../src/img/meats.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .productPrev {
+    .productType{
+      color: #D90052;
+      // padding: 1em;
+    } // end productType
+  } // end productPrev
+} // end meta
+
+.dairyEggs {
+  border: 2px solid #313048;
+  background-image: url("../../src/img/dairyEggs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .productPrev {
+    .productType{
+      color: #313048;
+      // padding: 1em;
+    } // end productType
+  } // end productPrev
+} // end dairyEggs
+
+.packagedGoods {
+  border: 2px solid #4159D7;
+  background-image: url("../../src/img/produce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .productPrev {
+    .productType{
+      color: #4159D7;
+      // padding: 1em;
+    } // end productType
+  } // end productPrev
+} // end packagedGoods
+
+.misc {
+  border: 2px solid #7183F3;
+  background-image: url("../../src/img/misc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  .productPrev {
+    .productType{
+      color: #7183F3;
+      // padding: 1em;
+    } // end productType
+  } // end productPrev
+} // end misc
+
+.product {
+  // display: flex;
+  // align-items: center;
+  // margin: 0 auto 12px auto;
+  position: relative;
+  height: -webkit-fill-available;
+  overflow: hidden;
+
+  .productImg {
+    // background-size: cover;
+    // margin-bottom: 0;
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    height: -webkit-fill-available;
+
+    img {
+      height: -webkit-fill-available;
+    }
+  }
+
+  .productInfo {
+    // padding: 1em;
+    padding: 2em;
+    height: -webkit-fill-available;
+    position: relative;
+    width: -webkit-fill-available;
+    margin-right: 4em;
+
+    h2,
+    p {
+      margin: 0 0 5px 0;
+      color: white;
+    }
+
+    .productInfoTop {
+      position: absolute;
+
+      .productAdd {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 0;
+
+        input {
+          background-color: transparent;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          width:100%;
+          display: block;
+          border: none;
+          padding: 7px;
+          transition: 0.85s ease;
+
+          &:focus, {
+            outline: none;
+            border: none;
+          }
+
+          &:hover {
+            cursor:pointer;
+            background-image: url("../../src/img/ui/input.png");
+            background-color: transparent;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width:100%;
+            display: block;
+            border: none;
+            transform: scale(1.05);
+          }
+        }
+
+        .produceInput {
+          background-image: url("../../src/img/ui/produce-input.png");
+        }
+
+        .grainsInput {
+          background-image: url("../../src/img/ui/grains-input.png");
+        }
+
+        .meatsInput {
+          background-image: url("../../src/img/ui/meats-input.png");
+        }
+
+        .dairyInput {
+          background-image: url("../../src/img/ui/dairy-input.png");
+        }
+
+        .packagedInput {
+          background-image: url("../../src/img/ui/packaged-input.png");
+        }
+
+        .miscInput {
+          background-image: url("../../src/img/ui/misc-input.png");
+        }
+
+      } // end productAdd
+    } // end productInfoTop
+
+    .productInfoBottom {
+      bottom: 2em;
+      position: absolute;
+
+      .productWeight {
+        position: absolute;
+        margin-top: 7px;
+        right: 7px;
+      }
+
+      .productCalc {
+        text-decoration: underline;
+        position: relative;
+
+        label {
+          position: relative;
+          color: white;
+          border-bottom: 1px solid white;
+
+          input:-webkit-autofill,
+          input:-webkit-autofill:hover,
+          input:-webkit-autofill:focus
+          input:-webkit-autofill:active,
+          textarea:-webkit-autofill,
+          textarea:-webkit-autofill:hover
+          textarea:-webkit-autofill:focus,
+          textarea:-webkit-autofill:active,
+          select:-webkit-autofill,
+          select:-webkit-autofill:hover,
+          select:-webkit-autofill:focus,
+          select:-webkit-autofill:active {
+            background: transparent !important;
+            // color: green;
+          }
+
+          input,
+          textarea,
+          select {
+            width: 50%;
+            height: 25px;
+            padding: 5px;
+            border: none;
+            font-size: 1em;
+            padding-right: 40px;
+            background: transparent !important;
+            // border-bottom: 1px solid white;
+            color: white;
+
+            &:focus {
+              outline: none;
+              border: none;
+            }
+          }
+
+          input::placeholder {
+            color: white;
+          }
+
+          input[type="number"]::-webkit-inner-spin-button,
+          input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+
+          input[type='number'] {
+            -webkit-appearance: textfield;
+          }
+
+        }
+      } // end productCalc
+
+      .productTotal {
+        color: white;
+        float: right;
+        font-family: "Playfair Display";
+        font-size: 1.51572rem;
+      }
+    } // end productInfoBottom
+
+  } // productInfo
+
+} //product

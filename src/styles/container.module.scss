@@ -1,0 +1,183 @@
+.container {
+  margin: auto;
+  max-width: 764px;
+  min-width: 400px;
+}
+
+.intro {
+  height: 318px;
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+}
+
+// NAV
+.nav {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+
+  .logo {
+    text-align: center;
+    img {
+      height: -webkit-fill-available;
+    }
+
+
+  }
+
+  .navContainer {
+    height: 60px;
+    padding: 1em 2em 1em 2em;
+
+    ul {
+      list-style-type: none;
+      float: left;
+      padding-left: 0;
+      height: -webkit-fill-available;
+      width: 100%;
+      margin: 0;
+
+      li {
+        color: #313048;
+        float: left;
+        margin-right: 3%;
+        width: 30%;
+
+        a {
+          &:hover {
+            color: #D90052;
+            text-decoration: underline;
+          }
+
+        }
+
+      }
+    }
+
+    .searchCart {
+
+      ul {
+
+        li {
+          width: 33%;
+          float: right;
+          margin-right: 0;
+
+          &:nth-child(1) {
+            width: 25px;
+            margin-left: 30px;
+          }
+
+          .cart {
+            &:before {
+              content: "\f002";
+              font-family: 'Font Awesome 5 Brands' !important;
+            }
+          }
+
+          a {
+            float: right;
+
+            p {
+              padding: 0;
+              margin: 0;
+              float: right;
+              margin-left: 10px;
+              margin-top: -3px;
+            }
+
+            img {
+              float: right;
+              height: 25px;
+              margin-top: -2px;
+            }
+
+
+          }
+
+        }
+
+      }
+    }
+
+  }
+}
+
+Box,
+Card {
+  // float: left;
+}
+
+.textCenter {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .gridFlex {
+    display: block !important;
+  }
+
+  .nav {
+    width: 100%;
+    height: 125px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    .navContainer {
+      ul {
+        display: grid;
+
+        li{
+          margin-bottom: 10px;
+        }
+      }
+
+      .searchCart {
+
+        ul {
+
+          li {
+            width: 100%;
+            float: right;
+            margin-right: 0;
+
+            &:nth-child(1) {
+              width: 100%;
+              margin-left: 0px;
+              float: right;
+            }
+
+            a {
+              float: right;
+
+              p {
+                padding: 0;
+                margin: 0;
+                float: right;
+                margin-left: 10px;
+                margin-top: -3px;
+              }
+
+              img {
+                float: right;
+                height: 25px;
+                margin-top: -2px;
+              }
+
+
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+}

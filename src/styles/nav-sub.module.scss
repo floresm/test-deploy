@@ -1,0 +1,152 @@
+.title {
+  text-align: center;
+  padding-top: 2em;
+
+  .products {
+    // color: #C1C0C8;
+  }
+
+  .produce {
+    color: #BE00A1;
+  }
+
+  .grains {
+    color: #979797;
+  }
+
+  .meats {
+    color: #D90052;
+  }
+
+  .packaged {
+    color: #4159D7;
+  }
+
+  .dairy {
+    color: #313048;
+  }
+
+  .misc {
+    color: #7183F3;
+  }
+
+}
+  .navSub {
+    max-width: 764px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0 1em 0;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      padding-left: 0;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #F4F4F6;
+      border-radius: 2px;
+
+      li {
+        list-style-type: none;
+        float: left;
+        margin-right: 10px;
+        align-self: flex-end;
+        padding-bottom: 0;
+        text-align: center;
+        padding: 10px;
+
+        &:nth-child(1) {
+          padding-left: 20px;
+        }
+
+        &:nth-child(6) {
+          margin-right: 0px;
+          padding-right: 20px;
+        }
+
+        a {
+          color: #313048;
+          font-size: 14px;
+          transition: font-size 0.15s ease-in-out;
+          font-weight: 400;
+
+          &:hover {
+            text-decoration: underline;
+          }
+
+          &:visited {
+            color: #313048;
+          }
+
+          &.produce:hover {
+            color: #BE00A1 !important;
+          }
+
+          &.grains:hover {
+            color: #979797 !important;
+          }
+
+          &.grains:hover {
+            color: #979797 !important;
+          }
+
+          &.meats:hover {
+            color: #D90052 !important;
+          }
+
+          &.dairyEggs:hover {
+            color: #313048 !important;
+          }
+
+          &.packagedGoods:hover {
+            color: #4159D7 !important;
+          }
+
+          &.misc:hover {
+            color: #7183F3 !important;
+          }
+        }
+
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .navSub {
+      ul {
+        width: 90%;
+        list-style-type: none;
+        display: grid;
+        margin: 0;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2px;
+        background-color: transparent;
+
+        li {
+          list-style-type: none;
+          float: left;
+          margin-right: 7px;
+          margin-bottom: 7px;
+          align-self: flex-end;
+          padding-bottom: 0;
+          text-align: center;
+          padding: 10px;
+          background-color: #F4F4F6;
+
+          &:nth-child(1) {
+            padding-left: 7px;
+          }
+
+          &:nth-child(6) {
+            margin-right: 0px;
+            padding-right: 7px;
+          }
+        }
+
+      }
+    }
+  }

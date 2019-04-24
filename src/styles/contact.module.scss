@@ -1,0 +1,63 @@
+.contactUs {
+  p {
+    margin-bottom: 0;
+
+    &:nth-child(odd) {
+      margin-top: 0;
+    }
+
+  }
+}
+
+.contactForm {
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  input {
+    width: -webkit-fill-available;
+    font-size: 1em;
+    padding: 15px;
+    margin-bottom: 7px;
+    background-color: #F4F4F6;
+    border-radius: 2px;
+    border:none;
+
+    &::placeholder {
+      color: #C1C0C8;
+    }
+
+    &:focus {
+      outline: none;
+      border:none;
+    }
+
+    &:nth-child(3) {
+      // height: 60px;
+    }
+
+  }
+  input[type=text],
+  input:-webkit-internal,
+  input:-webkit-autofill,
+  input:-webkit-selected, {
+    background-color: #313048;
+  }
+
+  input[type=button] {
+    color: white;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    background-color: #313048;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 700;
+
+    &:hover {
+      background-color: #D90052;
+
+    }
+  }
+
+}
